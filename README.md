@@ -67,6 +67,7 @@ Use a Jupyter Notebook or lightweight Flask dashboard to show:
 
 ```bash
 python scripts/transform_coa.py
+```
 
 3. Output and logs will indicate data transformation and any validation issues.
 
