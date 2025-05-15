@@ -11,6 +11,48 @@ To demonstrate:
 - Basic data quality validation
 - Governance-friendly MDM structure
 
+## 📌 Features
+
+### 🔢 CoA Domain Modeling
+- Define and simulate a flexible CoA structure (e.g., natural account, company code, cost center).
+- YAML/JSON-based metadata for easy structure replication across regions.
+
+### 💾 ETL Pipelines (Simulated)
+- Python or SQL scripts for loading, validating, and transforming data.
+- Demonstrates moving data from Legacy_ERP to OneCloud target model.
+- Includes mapping logic (e.g., account renaming, merging accounts).
+
+### 📊 Data Quality Dashboard (Optional)
+Use a Jupyter Notebook or lightweight Flask dashboard to show:
+- Orphan records
+- Duplicates
+- Mapping mismatches
+- Transformation coverage
+
+### 📑 Governance Layer
+- Excel/CSV-based rules engine or SQL-based rule enforcement.
+- Simulated governance process (approval flows, change logs).
+
+### 📦 Integration Touchpoints
+- Mock data for OTC, PTP, RTR interactions.
+- Simulated integration showing dependencies between CoA and other finance modules.
+
+## 🧰 Tools Used
+- SQL (PostgreSQL or SQLite)
+- Python for ETL/validation
+- Pandas, SQLAlchemy
+- Optional: Streamlit/Flask for dashboard; YAML for metadata
+
+## 🛠️ Tech Stack
+- Python
+- Pandas
+- CSV / Excel
+- SQL (optional extension)
+
+## 📈 Optional Enhancements
+- Add cross-tower validations (OTC, PTP, RTR)
+- Streamlit dashboard for real-time validation
+- Data governance logs and audit trail
 ## 🗃️ Data Files
 
 - `data/legacy_erp_coa.csv`: Legacy CoA records
