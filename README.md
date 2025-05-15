@@ -53,6 +53,7 @@ Use a Jupyter Notebook or lightweight Flask dashboard to show:
 - Add cross-tower validations (OTC, PTP, RTR)
 - Streamlit dashboard for real-time validation
 - Data governance logs and audit trail
+
 ## 🗃️ Data Files
 
 - `data/legacy_erp_coa.csv`: Legacy CoA records
@@ -66,3 +67,11 @@ Use a Jupyter Notebook or lightweight Flask dashboard to show:
 
 ```bash
 python scripts/transform_coa.py
+
+3. Output and logs will indicate data transformation and any validation issues.
+
+## 🤝 Contribution
+Feel free to fork and improve! This is intended as a demonstration of data transformation and governance best practices aligned with enterprise MDM initiatives like DHL’s Reimagine Finance.
+
+## 📄 License
+MIT
